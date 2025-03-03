@@ -8,7 +8,7 @@ function addActivityLog(taskName) {
   const logDiv = document.createElement("div");
   logDiv.className = "bg-gray-100 rounded-lg p-3 mb-3";
   logDiv.innerText = logMessage;
-  activityLogSection.insertAdjacentElement("afterbegin", logDiv); // Add log message at the top
+  activityLogSection.insertAdjacentElement("afterbegin", logDiv);
 }
 
 clearButton.addEventListener("click", function () {
